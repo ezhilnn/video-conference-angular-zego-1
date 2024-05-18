@@ -1,0 +1,22 @@
+<div class="joins">
+    <div class="row">
+        <div class="col4"></div>
+        <div class="col4">
+            <div class="text-center">
+                <div class="form">
+                    <h3 class="mb-4">create a Meeting</h3>
+                    <form #f="ngForm" (ngSubmit)="onSubmit(f)">
+                        <div class="form-group mt-4 mb-4">
+                            <label for="id" class="lab">Enter your meeting name</label>
+                            <input type="text" class="form-control mt-4 mb-4 text-center" name="id" ngModel #id="ngModel" placeholder="Enter your meeting name" required>
+
+                        </div>
+                        <h6 class="mt-4 mb-4">By clicking "Create", you agree to our Terms of Services and Privacy Statement</h6>
+                        <button class="btn btn-primary mt-4 mb-4" [disabled]="f.invalid">Create Meeting</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col4"></div>
+    </div>
+</div>

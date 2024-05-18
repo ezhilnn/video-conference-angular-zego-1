@@ -1,0 +1,8 @@
+<h1>Video</h1>
+<video id="video" autoplay></video>
+<div *ngIf="!videoOn">
+    <button (click)="turnOn()">Turn on</button>
+</div>
+<div *ngIf="videoOn">
+    <button (click)="turnOff()">Turn off</button>
+</div>

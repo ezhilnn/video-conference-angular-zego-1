@@ -1,0 +1,62 @@
+.cont{
+    margin: 20px;
+}
+.content {
+    background-image: linear-gradient(to right, #ff5f6d, #ffc371);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    line-height: 42px;
+}
+.snub{
+    line-height: 30px;
+}
+.mt-10{
+    margin-top: 30px;
+}
+.d-flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.button-1,
+.button-2 {
+    flex: 1; /* Ensure both buttons take up equal space */
+    margin: 0 5px; /* Adjust margin as needed */
+}
+
+/* Optional: Add additional styling to buttons */
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.mt-15{
+    margin-top: 35px;
+}
+.mt-14{
+    margin: 30px;
+}
+.curved-border{
+    border-radius: 10px;
+}
+.found{
+    background-image: linear-gradient(to right, #ff5f6d, #ffc371);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    line-height: 40px;
+}
+.flexx{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
